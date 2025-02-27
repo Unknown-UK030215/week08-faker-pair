@@ -1,3 +1,25 @@
+
+<?php 
+                require 'vendor/autoload.php';
+                $faker = Faker\Factory::create('fil_PH');
+                $genres = ["Fiction", "Mystery", "Science Fiction", "Fantasy", "Romance", "Thriller", "Historical", "Horror"];
+
+                $books = [];
+
+                for ($i = 1; $i <= 15; $i++) {
+                    $books[] = [
+                        'title' => $faker->sentence(3),
+                        'author' => $faker->name,
+                        'publication_year' => rand(1900, 2024),
+                        'isbn' => $faker->isbn13,
+                        'genre' => $genres[array_rand($genres)],
+                        'summary' => $faker->paragraph,
+                    ];
+                };
+
+                    
+            ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,6 +48,19 @@
                     <th>Summary</th>
                 </tr>
             </thead>
+            <tbody>
+                <?php foreach ($books as $book): ?>
+                    <tr>
+                        <td><?= $book['title'] ?></td>
+                        <td><?= $book['author'] ?></td>
+                        <td><?= $book['publication_year'] ?></td>
+                        <td><?= $book['isbn'] ?></td>
+                        <td><?= $book['genre'] ?></td>
+                        <td><?= $book['summary'] ?></td>
+                    </tr>
+                <?php endforeach; ?>
+            
+            </tbody>
     </div>
 </body>
 </html>
