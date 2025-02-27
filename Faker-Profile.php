@@ -44,7 +44,7 @@
                 $faker = Faker\Factory::create('fil_PH');
                 
 
-                for ($i = 1; $i < 5; $i++) {
+                for ($i = 0; $i < 5; $i++) {
                     echo "<tr>";
                     echo "<td>" . $faker->name() . "</td>";
                     echo "<td>" . $faker->email() . "</td>";
