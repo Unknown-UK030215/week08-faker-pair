@@ -6,10 +6,10 @@
     <title>Title</title>
 </head>
 <body>
-    <div>
-        <h2></h2>
-        <table>
-            <thead>
+    <div class=".container-md">
+        <h2 class="text-center mb-4"></h2>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
                 <tr>
                     <th></th>
                     <th></th>
