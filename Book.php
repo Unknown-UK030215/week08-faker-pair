@@ -6,7 +6,7 @@
 
                 $books = [];
 
-                for ($i = 1; $i <= 15; $i++) {
+                for ($i = 0; $i <= 15; $i++) {
                     $books[] = [
                         'title' => $faker->sentence(3),
                         'author' => $faker->name,
