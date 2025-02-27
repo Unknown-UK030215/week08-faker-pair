@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Faker User Profile</title>
 </head>
 <body>
     <div class=".container-md">
@@ -29,12 +29,12 @@
 
                 for ($i = 1; $i < $num_profiles; $i++) {
                     echo "<tr>";
-                    echo "<td>" . htmlspecialchars($faker->name()) . "</td>";
-                    echo "<td>" . htmlspecialchars($faker->email()) . "</td>";
+                    echo "<td>" . $faker->name() . "</td>";
+                    echo "<td>" . $faker->email() . "</td>";
                     echo "<td>+63" . $faker->numerify("9## ### ####") . "</td>";
-                    echo "<td>" . htmlspecialchars($faker->address()) . "</td>";
-                    echo "<td>" . htmlspecialchars($faker->date('Y-m-d')) . "</td>";
-                    echo "<td>" . htmlspecialchars($faker->jobTitle()) . "</td>";
+                    echo "<td>" . $faker->address() . "</td>";
+                    echo "<td>" . $faker->date('Y-m-d') . "</td>";
+                    echo "<td>" . $faker->jobTitle() . "</td>";
                     echo "</tr>";
                 }
                 ?>
