@@ -1,5 +1,5 @@
 
-### first type install a composer but first download it here: "https://getcomposer.org" then in the terminal of VSCODE type Composer fakerphp/faker 
+### First install a composer but first download it here: "https://getcomposer.org" then in the terminal of VSCODE type Composer fakerphp/faker 
 
 ## Faker-Profile.php
     Php Code:
