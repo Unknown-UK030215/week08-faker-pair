@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <div>
-        <h2></h2>
-        <table>
-            <thead>
+    <div class=".container-md">
+        <h2 class="text-center mb-4">Fake User Account</h2>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
                 <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th>User ID</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Username</th>
+                    <th>Password (SHA-256)</th>
+                    <th>Account Created</th>
                 </tr>
             </thead>
             <tbody>
