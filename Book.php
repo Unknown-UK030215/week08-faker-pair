@@ -32,10 +32,21 @@
     h1{
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    thead tr th {
+        text-align: center;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    tbody tr td {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
     }
 </style>
 <body>
-    <div>
+    <div class=".container-md">
         <h1>Books</h1>
         <table class="table table-bordered table-striped">
             <thead class="table-dark">
