@@ -33,11 +33,14 @@
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
         font-weight: bold;
+        padding: 50px;
+
     }
     thead tr th {
         text-align: center;
-        font-size: larger;
+        font-size: x-large;
         font-family: 'Times New Roman', Times, serif;
+
     }
 
     tbody tr td {
@@ -47,7 +50,7 @@
 </style>
 <body>
     <div class=".container-md">
-        <h1>Books</h1>
+        <h1>Book Records</h1>
         <table class="table table-bordered table-striped">
             <thead class="table-dark">
                 <tr>
