@@ -33,21 +33,34 @@
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
         font-weight: bold;
+        padding: 50px;
+
     }
     thead tr th {
         text-align: center;
-        font-size: larger;
+        font-size: x-large;
         font-family: 'Times New Roman', Times, serif;
+
     }
 
     tbody tr td {
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
+        background-color: aqua;
+    }
+
+    .container-md{
+        background-color: #ffffff; /* White container background */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+        margin: auto;
+        width: 80%;
     }
 </style>
 <body>
     <div class=".container-md">
-        <h1>Books</h1>
+        <h1>Book Records</h1>
         <table class="table table-bordered table-striped">
             <thead class="table-dark">
                 <tr>
