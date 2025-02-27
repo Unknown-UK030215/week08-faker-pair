@@ -26,7 +26,7 @@
 <body>
     <div class=".container-md">
         <h2 class="text-center mb-4">Faker User Profile</h2>
-        <table class="table table-bordered table-striped">
+        <table class="table table-bordered table-striped" >
             <thead class="table-dark">
                 <tr>
                     <th>Full Name</th>
@@ -44,7 +44,7 @@
                 $faker = Faker\Factory::create('fil_PH');
                 
 
-                for ($i = 1; $i < 20; $i++) {
+                for ($i = 1; $i < 5; $i++) {
                     echo "<tr>";
                     echo "<td>" . $faker->name() . "</td>";
                     echo "<td>" . $faker->email() . "</td>";
